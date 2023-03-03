@@ -81,14 +81,9 @@
 		2A77403D2962533C00DF6487 /* Traility.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A77403B2962533C00DF6487 /* Traility.xcdatamodeld */; };
 		2A77403F2962533E00DF6487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A77403E2962533E00DF6487 /* Assets.xcassets */; };
 		2A7740422962533E00DF6487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7740402962533E00DF6487 /* LaunchScreen.storyboard */; };
-		2A77404F2962588B00DF6487 /* SeenFeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77404E2962588B00DF6487 /* SeenFeedCollectionViewController.swift */; };
-		2A7740512962589900DF6487 /* SeenFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7740502962589900DF6487 /* SeenFeedCollectionViewCell.swift */; };
 		2A7740572962677100DF6487 /* APINetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7740562962677100DF6487 /* APINetworkManager.swift */; };
 		2A774059296267D200DF6487 /* APINetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A774058296267D200DF6487 /* APINetworkError.swift */; };
 		2A77405B296267F600DF6487 /* APINetworkUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77405A296267F600DF6487 /* APINetworkUrls.swift */; };
-		2A77405D2962683200DF6487 /* SeenFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77405C2962683200DF6487 /* SeenFeedViewModel.swift */; };
-		2A77405F2962684500DF6487 /* SeenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77405E2962684500DF6487 /* SeenViewModel.swift */; };
-		2A7740612962689E00DF6487 /* SeenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7740602962689E00DF6487 /* SeenModel.swift */; };
 		2A7C18292977C2E000B5F4AD /* ItemsCollectionViewRepresentatble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C18282977C2E000B5F4AD /* ItemsCollectionViewRepresentatble.swift */; };
 		2A82F08429B0C8A500E574EC /* TrailityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A82F08329B0C8A500E574EC /* TrailityTests.swift */; };
 		2A82F08B29B0EA8B00E574EC /* MailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A82F08A29B0EA8B00E574EC /* MailManager.swift */; };
@@ -235,14 +230,9 @@
 		2A77403E2962533E00DF6487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A7740412962533E00DF6487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A7740432962533E00DF6487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A77404E2962588B00DF6487 /* SeenFeedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenFeedCollectionViewController.swift; sourceTree = "<group>"; };
-		2A7740502962589900DF6487 /* SeenFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenFeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		2A7740562962677100DF6487 /* APINetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINetworkManager.swift; sourceTree = "<group>"; };
 		2A774058296267D200DF6487 /* APINetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINetworkError.swift; sourceTree = "<group>"; };
 		2A77405A296267F600DF6487 /* APINetworkUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINetworkUrls.swift; sourceTree = "<group>"; };
-		2A77405C2962683200DF6487 /* SeenFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenFeedViewModel.swift; sourceTree = "<group>"; };
-		2A77405E2962684500DF6487 /* SeenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenViewModel.swift; sourceTree = "<group>"; };
-		2A7740602962689E00DF6487 /* SeenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenModel.swift; sourceTree = "<group>"; };
 		2A7C18282977C2E000B5F4AD /* ItemsCollectionViewRepresentatble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewRepresentatble.swift; sourceTree = "<group>"; };
 		2A82F08129B0C8A500E574EC /* TrailityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A82F08329B0C8A500E574EC /* TrailityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailityTests.swift; sourceTree = "<group>"; };
@@ -665,20 +655,9 @@
 				2AF2630029ADFA550057ED18 /* ContainerViewController.swift */,
 				2A1DC674296D277D00A0884B /* TabBarViewController.swift */,
 				2A1DC670296CFC6E00A0884B /* Home */,
-				2A77404C296255DA00DF6487 /* SeenFeed */,
 				2A3744F02995A32900FFAD1D /* Map */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		2A77404C296255DA00DF6487 /* SeenFeed */ = {
-			isa = PBXGroup;
-			children = (
-				2A774052296263E500DF6487 /* View */,
-				2A774053296263F300DF6487 /* ViewModel */,
-				2A774054296263FC00DF6487 /* Model */,
-			);
-			path = SeenFeed;
 			sourceTree = "<group>";
 		};
 		2A77404D2962568200DF6487 /* CoreData */ = {
@@ -689,32 +668,6 @@
 				2AE34CA429AC5056002DF45B /* PersistenceController.swift */,
 			);
 			path = CoreData;
-			sourceTree = "<group>";
-		};
-		2A774052296263E500DF6487 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2A77404E2962588B00DF6487 /* SeenFeedCollectionViewController.swift */,
-				2A7740502962589900DF6487 /* SeenFeedCollectionViewCell.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2A774053296263F300DF6487 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				2A77405C2962683200DF6487 /* SeenFeedViewModel.swift */,
-				2A77405E2962684500DF6487 /* SeenViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		2A774054296263FC00DF6487 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2A7740602962689E00DF6487 /* SeenModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		2A7740552962674D00DF6487 /* Networking */ = {
@@ -940,9 +893,7 @@
 				2AE787DD29ACE67B00BACB13 /* ImageDataObject+CoreDataClass.swift in Sources */,
 				2A7740572962677100DF6487 /* APINetworkManager.swift in Sources */,
 				2A9427A0299C1C0800018509 /* CoreLocationManager.swift in Sources */,
-				2A7740612962689E00DF6487 /* SeenModel.swift in Sources */,
 				2AB471A829751D8A002468BD /* ItemCollectionViewCell.swift in Sources */,
-				2A77405F2962684500DF6487 /* SeenViewModel.swift in Sources */,
 				2A6F5FFB297E3B1500AD3F23 /* Reviews.swift in Sources */,
 				2A90804029974DAD00BD6D68 /* SeeAllButton.swift in Sources */,
 				2A774059296267D200DF6487 /* APINetworkError.swift in Sources */,
@@ -1019,21 +970,18 @@
 				2A4697E3299D2908005FFBBB /* ShimmerCollectionViewCell.swift in Sources */,
 				2AD1692829936E12009DF5CD /* ImageCarousel.swift in Sources */,
 				2A1DC675296D277D00A0884B /* TabBarViewController.swift in Sources */,
-				2A77404F2962588B00DF6487 /* SeenFeedCollectionViewController.swift in Sources */,
 				2AFEFF8C29A3E79900CE732A /* FeatureCollectionViewCell.swift in Sources */,
 				2AE787DE29ACE67B00BACB13 /* ImageDataObject+CoreDataProperties.swift in Sources */,
 				2AB471A22974E1C2002468BD /* HomeHeaderView.swift in Sources */,
 				2A7063B92966FD140009A069 /* FontExtension.swift in Sources */,
 				2A50A3BC29A84F550050FDD3 /* ActivityModel.swift in Sources */,
 				2A4697E1299D2533005FFBBB /* ColorExtension.swift in Sources */,
-				2A77405D2962683200DF6487 /* SeenFeedViewModel.swift in Sources */,
 				2AB471A629751D0D002468BD /* HomeItemsCollectionView.swift in Sources */,
 				2A974E992980E49C00237C13 /* ImageExtension.swift in Sources */,
 				2AE9C7F329961FBF00A7CC44 /* CombineExtension.swift in Sources */,
 				2AF2630C29AEA4C90057ED18 /* MyListTableViewController.swift in Sources */,
 				2AE787E029ACE67B00BACB13 /* ActivityObject+CoreDataProperties.swift in Sources */,
 				2A7063BB2967C4320009A069 /* DisplaySizeManager.swift in Sources */,
-				2A7740512962589900DF6487 /* SeenFeedCollectionViewCell.swift in Sources */,
 				2A974E922980C5A700237C13 /* ParkModel.swift in Sources */,
 				2AE787DB29ACE67B00BACB13 /* ParkManagedObject+CoreDataClass.swift in Sources */,
 				2A77403D2962533C00DF6487 /* Traility.xcdatamodeld in Sources */,
