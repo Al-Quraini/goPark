@@ -118,7 +118,9 @@ class HomeViewModel : BaseSearchViewModel {
             case .failure(let error) :
                 DispatchQueue.main.async {
                     self.isLoading = false
-                    group?.leave()
+                    if let group = group  {
+                        self.getActivities(group: group)
+                    }
                     print(error.errorDescription ?? "")
                 }
             }
