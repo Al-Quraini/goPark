@@ -11,7 +11,7 @@ struct LinkManager {
     
     func goToGoParkAppTwitterProfile() {
         let twitterUsername = "goPark_app"
-        let twitterUrl = URL(string: "twitter://user?screen_name=\(twitterUsername)")!
+        guard let twitterUrl = URL(string: "twitter://user?screen_name=\(twitterUsername)") else { return }
         let webUrl = URL(string: "https://twitter.com/\(twitterUsername)")!
         
         if UIApplication.shared.canOpenURL(twitterUrl) {
