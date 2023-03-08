@@ -74,13 +74,13 @@ extension ParkManagedObject {
     }
 
     public var imagesArray : [ImageDataObject] {
-        let set = imagesData as? Set<ImageDataObject> ?? []
+        let set = imagesData ?? []
         
         return Array(set)
     }
 
     public var activitiesArray : [ActivityObject] {
-        let set = activities as? Set<ActivityObject> ?? []
+        let set = activities ?? []
         
         return set.sorted {
             $0.wrappedName < $1.wrappedName
