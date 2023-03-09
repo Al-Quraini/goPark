@@ -1154,7 +1154,8 @@
 				INFOPLIST_FILE = Traility/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = goPark;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This is why we need your location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to access nearby parks";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to access nearby parks";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1188,7 +1189,8 @@
 				INFOPLIST_FILE = Traility/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = goPark;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This is why we need your location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to access nearby parks";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to access nearby parks";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
